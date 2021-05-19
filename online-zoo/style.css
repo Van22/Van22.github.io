@@ -15,32 +15,27 @@
 			width: 100%;
 			height: 80px;
 			display: flex;
-			background-image: url(images/header__bkg.png);
-			background-position: center;
-			background-repeat: no-repeat;
-			justify-content: space-around;
+			max-width: 1920px;
+			margin:0 auto;
+			justify-content: center;
+						flex-wrap: nowrap;
 		}
 		.header__container{
 			top: 12px;
 			display: flex;
 			align-items: center;
-			position: absolute;
-			margin-right: 525px;
-		}
-		.header__right{
-			width: 50%;
-			position: relative;
-			height: 40px;
+			max-width: 1160px;
+			flex-wrap: nowrap;
+			justify-content:flex-start;
+			width: 100%;
 		}
 		main{
 			height: 4038px;
+			margin:  auto;
 		}
 		.animal__watch{
 			height: 620px;
 			width: 100%;
-			background-image: url(images/background__panda.png);
-			background-repeat: no-repeat;
-			background-position: 50% 50%;
 		}
 		.panda{
 			  height: 700px;
@@ -50,6 +45,27 @@
 			  overflow:hidden;
 			  z-index: 20;
 		}
+		.panda-1{
+			position: absolute;
+			width: 693px;
+			height: 645px;
+			right: 361px;
+			top: 55px;
+		}
+		.background-section1{
+			position: absolute;
+			left: 0%;
+			right: 0%;
+			top: 0%;
+			bottom: 84.12%;
+			background-image: url(images/Sect_1.png);
+			height: 700px;
+			background-repeat: no-repeat;
+			margin: 0 auto;
+			z-index: -5;
+			width: auto;
+			background-position: center;
+			}
 		.wrapper:not(.container){
 			position: absolute;
 			left: -19%;
@@ -870,17 +886,9 @@
 				line-height: 16px;
 		  }
 		}
-		@media only screen and (max-width: 1200px) {
-				.header{
-					justify-content: flex-start;
-				}
-				.header__container{
-					margin-left: 25px;
-				}
-		}
 		@media only screen and (max-width: 670px) {
 				.header__logo{
-					margin-right: 50px;
+					
 				}
 				.text__item{
 					font-style: normal;
