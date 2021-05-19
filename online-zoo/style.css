@@ -10,15 +10,13 @@
 		body {
 			padding: 0;
 			margin: 0;
+			overflow-x: hidden;
 		}
 		.header{
 			width: 100%;
 			height: 80px;
-			display: flex;
 			max-width: 1920px;
 			margin:0 auto;
-			justify-content: center;
-						flex-wrap: nowrap;
 		}
 		.header__container{
 			top: 12px;
@@ -26,12 +24,14 @@
 			align-items: center;
 			max-width: 1160px;
 			flex-wrap: nowrap;
-			justify-content:flex-start;
 			width: 100%;
+			margin:0 auto;
+			padding-top: 15px;
 		}
 		main{
 			height: 4038px;
 			margin:  auto;
+			max-width: 1920px;
 		}
 		.animal__watch{
 			height: 620px;
@@ -47,10 +47,10 @@
 		}
 		.panda-1{
 			position: absolute;
-			width: 693px;
-			height: 645px;
-			right: 361px;
+			left: 50%;
 			top: 55px;
+			z-index: -1;
+
 		}
 		.background-section1{
 			position: absolute;
@@ -902,3 +902,20 @@
 					margin-top: 0px;
 				}
 		}
+		@media only screen and (max-width: 1360px) {
+				  .panda-1{
+				  	left: calc(82% - 1360px/3);
+				  }
+				}
+		@media only screen and (max-width: 1200px) {
+				  .panda-1{
+				  	left: calc(72% - 1450px/4);
+				  	top: 62px;
+				  }
+				}
+		@media only screen and (max-width: 560px) {
+				  .panda-1{
+				  	left: calc(72% - 880px/4);
+				  	top: 62px;
+				  }
+				}
