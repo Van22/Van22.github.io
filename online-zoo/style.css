@@ -792,7 +792,7 @@
 		width: 100%;
 		top: -19px;
 		position: absolute;
-		z-index: 0;
+		z-index: -2;
 	}
 	.footer__container3 {
 		width: 100%;
