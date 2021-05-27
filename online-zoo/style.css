@@ -52,6 +52,7 @@
 	}
 	.panda-1_overflow {
 		overflow-y: hidden;
+		overflow-x: hidden;
 		height: 700px;
 	}
 	.panda {
@@ -68,6 +69,7 @@
 		top: 55px;
 		z-index: -1;
 		overflow-y: hidden;
+		overflow-x: hidden;
 	}
 	.background-section1 {
 		position: absolute;
