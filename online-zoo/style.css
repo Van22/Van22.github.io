@@ -67,6 +67,7 @@
 		top: 55px;
 		z-index: -1;
 		overflow-y: hidden;
+		overflow-x: hidden;
 	}
 	.background-section1 {
 		position: absolute;
@@ -437,7 +438,7 @@
 		justify-content: center;
 		align-items: center;
 		padding-left: 14px;
-		position: absolute;
+		margin: 50px auto;
 		width: 286px;
 		height: 51px;
 		left: calc(50% - 286px/2);
@@ -451,7 +452,6 @@
 		font-weight: normal;
 		font-size: 18px;
 		line-height: 21px;
-		margin: 0px 6px;
 		flex-wrap: nowrap;
 	}
 	.pay-feed {
