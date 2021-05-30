@@ -1212,6 +1212,7 @@ flex-wrap: wrap;
 		height: 50px;
 		margin-top: 66px;
 		margin-left: 80px;
+		height: 80px;
 	}
 	.arrow__end{
 		display: none;
@@ -1224,6 +1225,9 @@ flex-wrap: wrap;
 		.footer__container4{
 			flex-direction: column-reverse;
 			order: 3;
+			margin-left: 0px;
+			margin: 0 auto;
+			padding-top: 25px;
 		}
 		.fav-btn_640px{
 			display:flex;
