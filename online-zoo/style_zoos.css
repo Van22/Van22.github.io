@@ -1431,7 +1431,7 @@ flex-wrap: wrap;
 		background: #A7E1FF;
 		padding: 20px 0px 20px 20px;
 		width: 570px;
-		height: 142px;
+		min-height: 142px;
 		box-sizing: border-box;
 	}
 	.text_uppercase {
